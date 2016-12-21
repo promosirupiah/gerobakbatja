@@ -108,7 +108,7 @@
 .responsive .art-header #art-flash-area,
 .responsive .art-header .art-shapes>*
 {
-   display: none;
+/*   display: none; */
 }
 
 .responsive #art-header-bg 
