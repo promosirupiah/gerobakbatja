@@ -746,7 +746,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
 .art-header .art-header-widget 
 {
    position:absolute;
-   z-index:101;
+   z-index:10;
 }
 
 .art-nav
@@ -755,7 +755,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
    padding:6px 0 0;
    margin:0 auto;
    position: relative;
-   z-index: 499;
+   z-index: 20;
 }
 
 ul.art-hmenu a, ul.art-hmenu a:link, ul.art-hmenu a:visited, ul.art-hmenu a:hover 
@@ -788,7 +788,7 @@ ul.art-hmenu li
 
 ul.art-hmenu li:hover
 {
-   z-index: 10000;
+   z-index: 30;
    white-space: normal;
 }
 
