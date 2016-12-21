@@ -4640,7 +4640,7 @@ jQuery(function () {
 
 var artCheckNavBar = (function ($) {
     return function () {
-        if (!true) {
+        if (!false) {
             $("#navbar").remove();
         }
     };
