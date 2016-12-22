@@ -1633,7 +1633,7 @@ $('.imgdivgrid').css({'width':'100%','overflow':'hidden',});
 var articlewidth = $('article.art-article').width(); $('article.art-article').css({height:articlewidth * 1.5,});
 $('.responsive .art-article').css({height:articlewidth * 1.2,});
 var imgdivgridwidth = $('.imgdivgrid').width(); $('.imgdivgrid').css({height:imgdivgridwidth * 0.5,});
-
+$('.responsive .imgdivgrid').css({height:'auto',});
 }
 });
 
