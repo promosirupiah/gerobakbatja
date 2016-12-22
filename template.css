@@ -755,7 +755,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
    padding:6px 0 0;
    margin:0 auto;
    position: relative;
-   z-index: 20;
+   z-index: 0;
 }
 
 ul.art-hmenu a, ul.art-hmenu a:link, ul.art-hmenu a:visited, ul.art-hmenu a:hover 
