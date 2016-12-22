@@ -1608,7 +1608,7 @@ jQuery(function ($) {
 
 $(window).load(function(){
 var checkurl = window.location.pathname;
-if(checkurl.match('/search/label/')){
+if(checkurl.match('/search')){
 $('article.art-article').each(function(){
 $(this).find('script').remove();
 $(this).find('div.post-footer').remove();
