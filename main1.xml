@@ -4,7 +4,6 @@
 <head>
 <b:include data='blog' name='all-head-content'/>
 <title><data:blog.pageTitle/></title>
-<!-- Created by Artisteer v4.1.0.59861 -->
 <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width"/>
 <b:skin><![CDATA[
 ]]></b:skin>
@@ -49,7 +48,7 @@ artFixNavbarPadding();
 
 
     <div class="art-shapes">
-<div class="art-object1628492938" data-left="7.11%"></div>
+<a href="http://www.gerobakbatja.org"><div class="art-object1628492938" data-left="7.11%"></div></a>
 <div class="art-object1358626295" data-left="87.41%"></div>
 
             </div>
@@ -95,6 +94,30 @@ artFixTopPagesMenu();
 </div>
 <div class="art-sheet clearfix">
             <div class="art-layout-wrapper">
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<style>#galleria img{display:none;}</style>
+<div id="galleria">
+<img src="http://cdn.gerobakbatja.org/gallery/imajinasi.jpg"/>
+<img src="http://cdn.gerobakbatja.org/gallery/IMG_9070_DAP_dOrciaHDport.jpg"/>
+<img src="http://cdn.gerobakbatja.org/gallery/rekrutmen.jpg"/>
+<img src="http://cdn.gerobakbatja.org/gallery/waktu.jpg"/>
+</div>
+<script src="http://promosirupiah.github.io/janivalibrary/galleria-1.5.1.min.js"></script>  <script src="http://promosirupiah.github.io/janivalibrary/twelve/galleria.twelvetes.min.js"></script> <link href="http://promosirupiah.github.io/janivalibrary/twelve/galleria.twelve.min.css" media="all" rel="stylesheet" type="text/css"></link>  
+<script>  
+$(window).load(function(){
+$('#galleria').css({width:'100%',});
+if($(window).height()>$(window).width()){$('#galleria').css({height:$('#galleria').width()*0.8,}); } else{$('#galleria').css({height:$('#galleria').width()*0.5,});}
+Galleria.run('#galleria',{
+transition: 'fade',
+lightbox: true,
+thumbnails: true, imageCrop: false,
+autoplay: true});
+})
+$(window).resize(function(){$('#galleria').css({width:'100%',});
+if($(window).height()>$(window).width()){$('#galleria').css({height:$('#galleria').width()*0.5,}); } else{$('#galleria').css({height:$('#galleria').width()*0.3,});} 
+})
+</script>  
+</b:if>			
                 <div class="art-content-layout">
                     <div class="art-content-layout-row">
                         <b:section class="art-layout-cell art-content" id="main" showaddelement="yes">
@@ -135,7 +158,9 @@ artFixTopPagesMenu();
         </div>
         <div class='clear'/>
     </b:includable>
+
     <b:includable id='shareButtons' var='post'>
+	
         <b:if cond='data:top.showEmailButton'>
             <a class='goog-inline-block share-button sb-email'
                expr:href='data:post.sharePostUrl + &quot;&amp;target=email&quot;' expr:title='data:top.emailThisMsg'
@@ -198,7 +223,9 @@ artFixTopPagesMenu();
                 <data:post.dummyTag/>
             </div>
         </b:if>
+		
     </b:includable>
+
     <b:includable id='backlinks' var='post'>
         <a name='links'/>
         <h4>
@@ -323,9 +350,9 @@ artFixTopPagesMenu();
 
             </div>
 
-            <div class='post-footer-line post-footer-line-2'>
+           <div class='post-footer-line post-footer-line-2' style="">
 
-                <!-- share buttons -->
+                
                 <div class='post-share-buttons goog-inline-block'>
                     <b:if cond='data:post.sharePostUrl'>
                         <b:include data='post' name='shareButtons'/>
@@ -635,7 +662,10 @@ google.setOnLoadCallback(initialize);
 <div class="art-content-layout">
     <div class="art-content-layout-row">
     <div class="art-layout-cell layout-item-0" style="width: 100%">
-        <p>Copyright © 2016 All Rights Reserved.</p>
+       
+
+		<script>var thisyear = new Date()</script>
+		 <p>Copyright ©<script>document.write(thisyear.getFullYear())</script> All Rights Reserved.</p>
     </div>
     </div>
 </div>
@@ -660,14 +690,96 @@ google.setOnLoadCallback(initialize);
 artFixFooterMenu();
 
 </script>
+<style>
+#footersosmed a img,#footersosmed img{max-height:40px;}
+#footersosmed p{text-align:left;}
+#footersosmed a{font-size: 18px;text-decoration:none;font-weight: bold;}
+#footersosmed{float:left;padding-left:30px;}
+</style>
+<p style="font-size:18px;font-weight:bold">Donasi: BRI 032501009924532<br/>atas nama: Dr. Hervyasti Purwiandari<br/>Email: <script>//<![CDATA[
+document.write("<a href='mailto:contact"+'@'+'gerobakbatja.org'+"'>contact"+'@'+'gerobakbatja.org</a>')
+//]]>
+</script><br/></p>
+<img src="http://cdn.gerobakbatja.org/images/object1628492938.png" style="height:150px;clear:both;"/>
 
-
+<div id="footersosmed">
+<p><a href="https://www.facebook.com/gerobakbatja/"><img src="http://cdn.gerobakbatja.org/images/fbicon.png"/>GerobakBatja Pages</a><br/>
+<a href="https://www.facebook.com/gerobakbatja1/"><img src="http://cdn.gerobakbatja.org/images/fbicon.png"/>GerobakBatja Profile</a><br/>
+<a href="https://www.instagram.com/gerobakbatja/"><img src="http://cdn.gerobakbatja.org/images/instagramicon.png"/>GerobakBatja Instagram</a><br/>
+<a href="https://www.twitter.com/gerobakbatja/"><img src="http://cdn.gerobakbatja.org/images/twittericon.png"/>GerobakBatja Twitter</a></p>
+</div>
   </div>
 </footer>
 
 </div>
 
 
+<b:if cond='data:blog.url == data:blog.homepageUrl'>
+<script>
+//<![CDATA[
+$(document).ready(function(){
+$('article.art-article').each(function(){
+$(this).find('script').remove();
+$(this).find('div.post-footer').remove();
+var postcontent = $(this).find('div.art-postcontent').html();
+var rescript=/<[^>]*?>/gi;
+var findimg = /(<img.*?>)/gi;
+var strip = /<.*?>/gi;
+var imgtag = /<img/gi;
+var imgre =  postcontent.match(findimg);
+try{var imageshow = imgre[0].replace(imgtag,'<img class="imggrid" ');}catch(error){var imageshow = '<img src="http://cdn.gerobakbatja.org/gallery/imajinasi.jpg"/>'}
+postcontentstrip = postcontent.replace(rescript,"");postcontentstrip = postcontentstrip.replace(strip,"");
+postcontentstripsubs = postcontentstrip.substring(0,150);
+$(this).find('div.art-postcontent').html('<div class="imgdivgrid">'+textedit(imageshow)+'</div>'+postcontentstripsubs+'...');
+});
+
+
+
+
+
+});
+$(window).load(function(){
+$('.art-article').css({'width':'30%','float':'left','margin':'1%','overflow':'hidden','height':'350px','border':'thin solid Black',});
+$('.responsive .art-article').css({'width':'100%','float':'left','margin':'1%','overflow':'hidden','border':'thin solid Black',});
+$('.imggrid').css({'width':'100%','height':'auto',});
+$('.imgdivgrid').css({'width':'100%','overflow':'hidden',});
+
+var articlewidth = $('article.art-article').width(); $('article.art-article').css({height:articlewidth * 1.5,});
+$('.responsive .art-article').css({height:articlewidth * 1.2,});
+var imgdivgridwidth = $('.imgdivgrid').width(); $('.imgdivgrid').css({height:imgdivgridwidth * 0.5,});
+})
+
+
+
+function textedit(textedit){
+var re = /(style|height|width)\=((\".*?\")|([0-9]{1,}))/gi;
+var textedit = textedit.replace(re, "");
+return(textedit);
+};
+//]]>
+</script>
+</b:if>
+<b:if cond='data:blog.pageType == "item"'>
+<script src="http://promosirupiah.github.io/janivalibrary/galleria-1.5.1.min.js"></script>  <script src="http://promosirupiah.github.io/janivalibrary/twelve/galleria.twelvetes.min.js"></script> <link href="http://promosirupiah.github.io/janivalibrary/twelve/galleria.twelve.min.css" media="all" rel="stylesheet" type="text/css"></link>  
+<script>
+//<![CDATA[  
+$(window).load(function(){
+$('.galleria').css({width:'100%','clear':'both',});
+if($(window).height()>$(window).width()){$('.galleria').css({height:$('.galleria').width()*0.8,}); } else{$('.galleria').css({height:$('.galleria').width()*0.5,});}
+if ($(".galleria").length !== 0){
+Galleria.run('.galleria',{
+transition: 'fade',
+lightbox: true,
+thumbnails: true, imageCrop: false,
+autoplay: true});
+}
+})
+$(window).resize(function(){$('.galleria').css({width:'100%',});
+if($(window).height()>$(window).width()){$('.galleria').css({height:$('.galleria').width()*0.8,}); } else{$('.galleria').css({height:$('.galleria').width()*0.5,});} 
+})
+//]]>
+</script>
+</b:if>
 
 </body>
 </html>

@@ -1606,7 +1606,7 @@ jQuery(function ($) {
 });
 
 
-$(window).load(function(){
+$(document).ready(function(){
 var checkurl = window.location.pathname;
 if(checkurl.match('/search')){
 $('article.art-article').each(function(){
@@ -1624,7 +1624,7 @@ postcontentstripsubs = postcontentstrip.substring(0,150);
 $(this).find('div.art-postcontent').html('<div class="imgdivgrid">'+textedit(imageshow)+'</div>'+postcontentstripsubs+'...');
 });
 
-
+$(window).load(function(){
 $('.art-article').css({'width':'30%','float':'left','margin':'1%','overflow':'hidden','height':'350px','border':'thin solid Black',});
 $('.responsive .art-article').css({'width':'100%','float':'left','margin':'1%','overflow':'hidden','border':'thin solid Black',});
 $('.imggrid').css({'width':'100%','height':'auto',});
@@ -1633,6 +1633,7 @@ $('.imgdivgrid').css({'width':'100%','overflow':'hidden',});
 var articlewidth = $('article.art-article').width(); $('article.art-article').css({height:articlewidth * 1.5,});
 $('.responsive .art-article').css({height:articlewidth * 1.2,});
 var imgdivgridwidth = $('.imgdivgrid').width(); $('.imgdivgrid').css({height:imgdivgridwidth * 0.5,});
+})
 }
 });
 
