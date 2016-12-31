@@ -1610,6 +1610,7 @@ $(document).ready(function(){
 var checkurl = window.location.pathname;
 if(checkurl.match('/search')){
 $('article.art-article').each(function(){
+var postlink =$(this).find('.art-postheader a').attr('href');
 $(this).find('script').remove();
 $(this).find('div.post-footer').remove();
 var postcontent = $(this).find('div.art-postcontent').html();
@@ -1619,6 +1620,7 @@ var strip = /<.*?>/gi;
 var imgtag = /<img/gi;
 var imgre =  postcontent.match(findimg);
 try{var imageshow = imgre[0].replace(imgtag,'<img class="imggrid" ');}catch(error){var imageshow = '<img src=""/>'}
+imageshow = '<a href="'+postlink+'">'+imageshow+'</a>';
 postcontentstrip = postcontent.replace(rescript,"");postcontentstrip = postcontentstrip.replace(strip,"");
 postcontentstripsubs = postcontentstrip.substring(0,150);
 $(this).find('div.art-postcontent').html('<div class="imgdivgrid">'+textedit(imageshow)+'</div>'+postcontentstripsubs+'...');
