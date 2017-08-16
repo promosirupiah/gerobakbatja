@@ -1627,10 +1627,6 @@ $(this).find('div.art-postcontent').html('<div class="imgdivgrid">'+textedit(ima
 });
 
 $(window).load(function(){
-$('.art-article').css({'width':'30%','float':'left','margin':'1%','border':'thin solid Black',});
-$('.responsive .art-article').css({'width':'100%','float':'left','margin':'1%','border':'thin solid Black',});
-$('.imggrid').css({'width':'100%','height':'auto',});
-$('.imgdivgrid').css({'width':'100%',});
 
 var imgdivgridwidth = $('.imgdivgrid').width(); $('.imgdivgrid').css({height:imgdivgridwidth * 0.5,});
 while ($('#Blog1 > .art-article').length > 0) {
