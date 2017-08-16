@@ -1632,10 +1632,9 @@ $('.responsive .art-article').css({'width':'100%','float':'left','margin':'1%','
 $('.imggrid').css({'width':'100%','height':'auto',});
 $('.imgdivgrid').css({'width':'100%',});
 
-$('.responsive .art-article').css({height:articlewidth * 1.2,});
 var imgdivgridwidth = $('.imgdivgrid').width(); $('.imgdivgrid').css({height:imgdivgridwidth * 0.5,});
 while ($('#Blog1 > .art-article').length > 0) {
-    $('#Blog1 > .art-article:lt(3)').wrapAll('<div class="wrap-article"></div>')
+$('#Blog1 > .art-article:lt(3)').wrapAll('<div class="wrap-article"></div>');
 }
 $('.wrap-article').css({'width':'100%','clear':'both',});
 })
