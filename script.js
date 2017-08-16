@@ -1630,11 +1630,14 @@ $(window).load(function(){
 $('.art-article').css({'width':'30%','float':'left','margin':'1%','overflow':'hidden','height':'350px','border':'thin solid Black',});
 $('.responsive .art-article').css({'width':'100%','float':'left','margin':'1%','overflow':'hidden','border':'thin solid Black',});
 $('.imggrid').css({'width':'100%','height':'auto',});
-$('.imgdivgrid').css({'width':'100%','overflow':'hidden',});
+$('.imgdivgrid').css({'width':'100%',});
 
-var articlewidth = $('article.art-article').width(); $('article.art-article').css({height:articlewidth * 1.5,});
 $('.responsive .art-article').css({height:articlewidth * 1.2,});
 var imgdivgridwidth = $('.imgdivgrid').width(); $('.imgdivgrid').css({height:imgdivgridwidth * 0.5,});
+while ($('#Blog1 > .art-article').length > 0) {
+    $('#Blog1 > .art-article:lt(3)').wrapAll('<div class="wrap-article"></div>')
+}
+$('.wrap-article').css({'width':'100%','clear':'both',});
 })
 }
 });
