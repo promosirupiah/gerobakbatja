@@ -1628,11 +1628,12 @@ $(this).find('div.art-postcontent').html('<div class="imgdivgrid">'+textedit(ima
 
 $(window).load(function(){
 
-var imgdivgridwidth = $('.imgdivgrid').width(); $('.imgdivgrid').css({height:imgdivgridwidth * 0.5,});
 while ($('#Blog1 > .art-article').length > 0) {
 $('#Blog1 > .art-article:lt(3)').wrapAll('<div class="wrap-article"></div>');
 }
 $('.wrap-article').css({'width':'100%','clear':'both',});
+$('.art-article').css({'width':'30%','float':'left',});
+$('.responsive .art-article').css({'width':'100%','clear':'both',});
 })
 }
 });
