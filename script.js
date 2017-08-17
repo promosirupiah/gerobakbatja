@@ -1634,6 +1634,7 @@ $('#Blog1 > .art-article:lt(3)').wrapAll('<div class="wrap-article"></div>');
 $('.wrap-article').css({'width':'100%','clear':'both',});
 $('.art-article').css({'width':'30%','float':'left',});
 $('.responsive .art-article').css({'width':'100%','clear':'both',});
+$('.imggrid').css({'width':'100%',});
 })
 }
 });
