@@ -262,8 +262,8 @@ body#layout .art-footer-default {
 
 #art-main
 {
-   background: #C11179 url('http://cdn.gerobakbatja.org/images/page.png') scroll;
-   background: url('http://cdn.gerobakbatja.org/images/pageglare.png') top center no-repeat, url('http://cdn.gerobakbatja.org/images/page.png'), #C11179;
+   background: #C11179 url('https://cdn.gerobakbatja.org/images/page.png') scroll;
+   background: url('https://cdn.gerobakbatja.org/images/pageglare.png') top center no-repeat, url('https://cdn.gerobakbatja.org/images/page.png'), #C11179;
    margin:0 auto;
    font-size: 12px;
    font-family: 'Century Gothic', Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
@@ -696,7 +696,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
     top: 44px;
     width: 132px;
     height: 93px;
-    background-image: url('http://cdn.gerobakbatja.org/images/object1628492938.png');
+    background-image: url('https://cdn.gerobakbatja.org/images/object1628492938.png');
     background-position: 0 0;
     background-repeat: no-repeat;
     z-index: 1;
@@ -710,7 +710,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
     top: 54px;
     width: 138px;
     height: 87px;
-    background-image: url('http://cdn.gerobakbatja.org/images/object1358626295.png');
+    background-image: url('https://cdn.gerobakbatja.org/images/object1358626295.png');
     background-position: 0 0;
     background-repeat: no-repeat;
     z-index: 2;
@@ -727,7 +727,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
 {
    margin:0 auto;
    height: 150px;
-   background-image: url('http://cdn.gerobakbatja.org/images/header.jpg');
+   background-image: url('https://cdn.gerobakbatja.org/images/header.jpg');
    background-position: center top;
    background-repeat: no-repeat;
    position: relative;
@@ -739,7 +739,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
 
 .responsive .art-header 
 {
-   background-image: url('http://cdn.gerobakbatja.org/images/header.jpg');
+   background-image: url('https://cdn.gerobakbatja.org/images/header.jpg');
    background-position: center center;
 }
 
@@ -751,7 +751,7 @@ li p, .art-postcontent li p, .art-blockcontent li p
 
 .art-nav
 {
-   background: #C11179 url('http://cdn.gerobakbatja.org/images/nav.png') bottom left repeat-x scroll;
+   background: #C11179 url('https://cdn.gerobakbatja.org/images/nav.png') bottom left repeat-x scroll;
    padding:6px 0 0;
    margin:0 auto;
    position: relative;
@@ -880,14 +880,14 @@ ul.art-hmenu>li:last-child, ul.art-hmenu>li.last-child {
 
 ul.art-hmenu>li>a
 {
-   background: #C11179 url('http://cdn.gerobakbatja.org/images/menuitem.png') scroll;
-   background: linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuitem.png'), linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
-   background: -webkit-linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuitem.png'), -webkit-linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
-   background: -moz-linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuitem.png'), -moz-linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
-   background: -o-linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuitem.png'), -o-linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
-   background: -ms-linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuitem.png'), -ms-linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
-   background: linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuitem.png'), linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
-   -svg-background: linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuitem.png'), linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
+   background: #C11179 url('https://cdn.gerobakbatja.org/images/menuitem.png') scroll;
+   background: linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuitem.png'), linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuitem.png'), -webkit-linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuitem.png'), -moz-linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuitem.png'), -o-linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuitem.png'), -ms-linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
+   background: linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuitem.png'), linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(235, 27, 149, 0.07) 0, rgba(143, 12, 89, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuitem.png'), linear-gradient(top, #E1148C 0, #A00E63 100%) no-repeat;
    -webkit-border-radius:4px 4px 0 0;
    -moz-border-radius:4px 4px 0 0;
    border-radius:4px 4px 0 0;
@@ -919,14 +919,14 @@ ul.art-hmenu>li>a
 
 ul.art-hmenu>li>a.active
 {
-   background: #8C0059 url('http://cdn.gerobakbatja.org/images/menuactiveitem.png') scroll;
-   background: linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuactiveitem.png'), linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
-   background: -webkit-linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuactiveitem.png'), -webkit-linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
-   background: -moz-linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuactiveitem.png'), -moz-linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
-   background: -o-linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuactiveitem.png'), -o-linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
-   background: -ms-linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuactiveitem.png'), -ms-linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
-   background: linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuactiveitem.png'), linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
-   -svg-background: linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuactiveitem.png'), linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
+   background: #8C0059 url('https://cdn.gerobakbatja.org/images/menuactiveitem.png') scroll;
+   background: linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuactiveitem.png'), linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuactiveitem.png'), -webkit-linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuactiveitem.png'), -moz-linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuactiveitem.png'), -o-linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuactiveitem.png'), -ms-linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
+   background: linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuactiveitem.png'), linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(199, 0, 126, 0.07) 0, rgba(77, 0, 48, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuactiveitem.png'), linear-gradient(top, #B20071 0, #61003D 100%) no-repeat;
    -webkit-border-radius:4px 4px 0 0;
    -moz-border-radius:4px 4px 0 0;
    border-radius:4px 4px 0 0;
@@ -939,14 +939,14 @@ ul.art-hmenu>li>a.active
 
 ul.art-hmenu>li>a:hover, .desktop ul.art-hmenu>li:hover>a
 {
-   background: #56A7D2 url('http://cdn.gerobakbatja.org/images/menuhovereditem.png') scroll;
-   background: linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuhovereditem.png'), linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   background: -webkit-linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuhovereditem.png'), -webkit-linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   background: -moz-linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuhovereditem.png'), -moz-linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   background: -o-linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuhovereditem.png'), -o-linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   background: -ms-linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuhovereditem.png'), -ms-linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   background: linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuhovereditem.png'), linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
-   -svg-background: linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/menuhovereditem.png'), linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
+   background: #56A7D2 url('https://cdn.gerobakbatja.org/images/menuhovereditem.png') scroll;
+   background: linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuhovereditem.png'), linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuhovereditem.png'), -webkit-linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuhovereditem.png'), -moz-linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuhovereditem.png'), -o-linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuhovereditem.png'), -ms-linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
+   background: linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuhovereditem.png'), linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(128, 189, 221, 0.08) 0, rgba(51, 142, 191, 0.04) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/menuhovereditem.png'), linear-gradient(top, #72B5DA 0, #3A98CB 100%) no-repeat;
    -webkit-border-radius:4px 4px 0 0;
    -moz-border-radius:4px 4px 0 0;
    border-radius:4px 4px 0 0;
@@ -969,7 +969,7 @@ ul.art-hmenu>li:before
    left:  -7px;
    width:7px;
    height: 30px;
-   background: url('http://cdn.gerobakbatja.org/images/menuseparator.png') center center no-repeat;
+   background: url('https://cdn.gerobakbatja.org/images/menuseparator.png') center center no-repeat;
 }
 ul.art-hmenu>li:first-child:before{
    display:none;
@@ -1094,7 +1094,7 @@ ul.art-hmenu ul
    z-index: 10;
    left: 0;
    top: 0;
-   background-image: url('http://cdn.gerobakbatja.org/images/spacer.gif');
+   background-image: url('https://cdn.gerobakbatja.org/images/spacer.gif');
 }
 
 .desktop ul.art-hmenu>li>ul
@@ -1251,14 +1251,14 @@ div.art-block img
 
 .art-blockheader
 {
-   background: #DADFE1 url('http://cdn.gerobakbatja.org/images/blockheader.png') scroll;
-   background: linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/blockheader.png'), linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
-   background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/blockheader.png'), -webkit-linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
-   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/blockheader.png'), -moz-linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
-   background: -o-linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/blockheader.png'), -o-linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
-   background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/blockheader.png'), -ms-linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
-   background: linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/blockheader.png'), linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
-   -svg-background: linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('http://cdn.gerobakbatja.org/images/blockheader.png'), linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
+   background: #DADFE1 url('https://cdn.gerobakbatja.org/images/blockheader.png') scroll;
+   background: linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/blockheader.png'), linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
+   background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/blockheader.png'), -webkit-linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
+   background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/blockheader.png'), -moz-linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
+   background: -o-linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/blockheader.png'), -o-linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
+   background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/blockheader.png'), -ms-linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
+   background: linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/blockheader.png'), linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
+   -svg-background: linear-gradient(top, rgba(255, 255, 255, 0.16) 0, rgba(183, 193, 197, 0.06) 100%) no-repeat, url('https://cdn.gerobakbatja.org/images/blockheader.png'), linear-gradient(top, rgba(244, 245, 246, 0.6) 0, rgba(196, 204, 207, 0.6) 100%) no-repeat;
    -webkit-border-radius:2px;
    -moz-border-radius:2px;
    border-radius:2px;
@@ -2161,7 +2161,7 @@ pre
 
 .art-postdateicon:before
 {
-   content:url('http://cdn.gerobakbatja.org/images/postdateicon.png');
+   content:url('https://cdn.gerobakbatja.org/images/postdateicon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -2178,7 +2178,7 @@ pre
 
 .art-postauthoricon:before
 {
-   content:url('http://cdn.gerobakbatja.org/images/postauthoricon.png');
+   content:url('https://cdn.gerobakbatja.org/images/postauthoricon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -2195,7 +2195,7 @@ pre
 
 .art-postpdficon:before
 {
-   content:url('http://cdn.gerobakbatja.org/images/postpdficon.png');
+   content:url('https://cdn.gerobakbatja.org/images/postpdficon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -2212,7 +2212,7 @@ pre
 
 .art-postprinticon:before
 {
-   content:url('http://cdn.gerobakbatja.org/images/postprinticon.png');
+   content:url('https://cdn.gerobakbatja.org/images/postprinticon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -2229,7 +2229,7 @@ pre
 
 .art-postemailicon:before
 {
-   content:url('http://cdn.gerobakbatja.org/images/postemailicon.png');
+   content:url('https://cdn.gerobakbatja.org/images/postemailicon.png');
    margin-right:6px;
    bottom: 1px;
    position:relative;
@@ -2246,7 +2246,7 @@ pre
 
 .art-postcontent ul>li:before,  .art-post ul>li:before,  .art-textblock ul>li:before
 {
-   content:url('http://cdn.gerobakbatja.org/images/postbullets.png');
+   content:url('https://cdn.gerobakbatja.org/images/postbullets.png');
    margin-right:6px;
    bottom: 2px;
    position:relative;
@@ -2314,7 +2314,7 @@ pre
 
 blockquote
 {
-   background: #EBF4FA url('http://cdn.gerobakbatja.org/images/postquote.png') no-repeat scroll;
+   background: #EBF4FA url('https://cdn.gerobakbatja.org/images/postquote.png') no-repeat scroll;
    padding:10px 10px 10px 38px;
    margin:0 0 0 10px;
    color: #07151C;
@@ -2402,7 +2402,7 @@ blockquote p,
 
 .art-postcommentsicon:before
 {
-   content:url('http://cdn.gerobakbatja.org/images/postcommentsicon.png');
+   content:url('https://cdn.gerobakbatja.org/images/postcommentsicon.png');
    margin-right:6px;
    position:relative;
    display:inline-block;
@@ -2419,7 +2419,7 @@ blockquote p,
 
 .art-footer
 {
-   background: #8C0059 url('http://cdn.gerobakbatja.org/images/footer.png') scroll;
+   background: #8C0059 url('https://cdn.gerobakbatja.org/images/footer.png') scroll;
    margin:0 auto;
    position: relative;
    color: #ADB9BD;
@@ -2524,7 +2524,7 @@ blockquote p,
 
 .art-rss-tag-icon
 {
-   background:  url('http://cdn.gerobakbatja.org/images/footerrssicon.png') no-repeat scroll;
+   background:  url('https://cdn.gerobakbatja.org/images/footerrssicon.png') no-repeat scroll;
    margin:0 auto;
    min-height:32px;
    min-width:32px;
@@ -2540,7 +2540,7 @@ blockquote p,
 
 .art-facebook-tag-icon
 {
-   background:  url('http://cdn.gerobakbatja.org/images/footerfacebookicon.png') no-repeat scroll;
+   background:  url('https://cdn.gerobakbatja.org/images/footerfacebookicon.png') no-repeat scroll;
    margin:0 auto;
    min-height:32px;
    min-width:32px;
@@ -2556,7 +2556,7 @@ blockquote p,
 
 .art-twitter-tag-icon
 {
-   background:  url('http://cdn.gerobakbatja.org/images/footertwittericon.png') no-repeat scroll;
+   background:  url('https://cdn.gerobakbatja.org/images/footertwittericon.png') no-repeat scroll;
    margin:0 auto;
    min-height:32px;
    min-width:32px;
@@ -2654,7 +2654,7 @@ blockquote p,
 
 .art-lightbox-wrapper .loading
 {
-   background: #fff url('http://cdn.gerobakbatja.org/images/preloader-01.gif') center center no-repeat;
+   background: #fff url('https://cdn.gerobakbatja.org/images/preloader-01.gif') center center no-repeat;
    border: 1px solid #b4b4b4;
    border-radius: 10px;
    box-shadow: 0 2px 5px #333;

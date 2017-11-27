@@ -167,7 +167,7 @@ jQuery(function ($) {
                             ' width="100%" height="100%" style="fill:' + lastStop.color + ';opacity:' + lastStop.opacity + ';"/>';
 
                     }
-                    var svgGradient = '<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><linearGradient id="g" gradientUnits="objectBoundingBox" ' + direction + '>' + stopsXML + '</linearGradient><rect x="0" y="0" ' + size + ' fill="url(#g)" />' + last + '</svg>';
+                    var svgGradient = '<svg xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="none"><linearGradient id="g" gradientUnits="objectBoundingBox" ' + direction + '>' + stopsXML + '</linearGradient><rect x="0" y="0" ' + size + ' fill="url(#g)" />' + last + '</svg>';
                     values[l] = values[l].replace('linear-gradient(' + g + ')', 'url(data:image/svg+xml,' + escape(svgGradient) + ')');
                 }
                 n.push({ s: s.rules[k].selectorText, v: 'background: ' + values.join(",") });
@@ -528,11 +528,11 @@ jQuery(function ($) {
 * 
 * NO COPYRIGHTS OR LICENSES. DO WHAT YOU LIKE.
 * 
-* http://flowplayer.org/tools/toolbox/mousewheel.html
+* https://flowplayer.org/tools/toolbox/mousewheel.html
 * 
 * based on jquery.event.wheel.js ~ rev 1 ~ 
 * Copyright (c) 2008, Three Dub Media
-* http://threedubmedia.com 
+* https://threedubmedia.com 
 *
 * Since: Mar 2010
 * Date:  
@@ -1172,7 +1172,7 @@ var processHeaderMultipleBg = (function ($) {
             }
             header.append("<div style=\"position:absolute;top:0;left:0;width:100%;height:100%;background:" + bgimage + " " + bgpositions[i] + " no-repeat\">");
         }
-        header.css('background-image', "url('http://cdn.gerobakbatja.org/images/header.jpg')".replace(/(url\(['"]?)/i, "$1" + path));
+        header.css('background-image', "url('https://cdn.gerobakbatja.org/images/header.jpg')".replace(/(url\(['"]?)/i, "$1" + path));
         header.css('background-position', "center top");
     });
 })(jQuery);
@@ -1351,7 +1351,7 @@ var artDisplayTopMenu = (function ($) {
         for (var i = 0; i < menuitems.length; i++) {
             var itemname = menuitems[i][0];
             var itemlink = menuitems[i][1];
-            if (itemlink == "http://./") itemlink = "#";
+            if (itemlink == "https://./") itemlink = "#";
 
             if (itemname.charAt(0) != "-") {
                 if (subList3.length != 0) {
@@ -1422,7 +1422,7 @@ var artDisplayVMenu = (function ($) {
         for (var i = 0; i < vmenuitems.length; i++) {
             var itemname = vmenuitems[i][0];
             var itemlink = vmenuitems[i][1];
-            if (itemlink == "http://./") itemlink = "#";
+            if (itemlink == "https://./") itemlink = "#";
 
             if (itemname.charAt(0) != "-") {
                 if (subList3.length != 0) {
